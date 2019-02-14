@@ -1,0 +1,78 @@
+{% extends "gravcode/layout.html" %}
+
+{% block content %}
+
+<article class="container" id="bodytxt"> 
+    <div class="row">
+        <div class="col-xs-6">
+            <h1>Contact us</h1>
+        </div>
+        <div class="col-xs-6" style="background-color: red">
+            <h1>txt1</h1>
+        </div>  
+    </div>
+    <div class="row">
+        <div class="col-xs-5"  style="background-color: blue">
+            <h4>WE ADVISE, WE RESEARCH, WE BUILD</h4>
+        </div>
+        <div class="col-xs-7">
+            <h4>txt2</h4>
+        </div>  
+    </div>
+    <div class="row">
+        <div class="col-xs-4"  style="background-color: green">
+            <h4>space1</h4>
+        </div>
+        <div class="col-xs-8">
+            <h4>txt3a</h4>
+        </div>  
+    </div>
+    <div class="row">
+        <div class="col-xs-4"  style="background-color: green">
+            <h4>space2</h4>
+        </div>
+        <div class="col-xs-8">
+            <h4>txt3b</h4>
+        </div>  
+    </div>
+    <div class="row">
+        <div class="col-xs-4"  style="background-color: gray">
+            <p>texts here1</p>
+            <p>texts here1</p>
+        </div>
+        <div class="col-xs-8">
+            <h4>txt4</h4>
+        </div>  
+    </div>
+    <div class="row">
+        <div class="col-xs-4"  style="background-color: gray">
+            <p>texts here2</p>
+            <p>texts here2</p>
+            <p>texts here2</p>
+        </div>
+        <div class="col-xs-8">
+            <h4>txt5</h4>
+        </div>  
+    </div>
+    <div class="row">
+        <div class="col-xs-4"  style="background-color: gray">
+            <p>texts here3</p>
+            <p>texts here3</p>
+            <p>texts here3</p>
+        </div>
+        <div class="col-xs-8">
+            <h4>txt6</h4>
+        </div>  
+    </div>
+    <div class="row">
+        <div class="col-xs-4"  style="background-color: gray">
+            <p>texts here3</p>
+            <p>texts here3</p>
+            <p>texts here3</p>
+        </div>
+        <div class="col-xs-8">
+            <h4>txt6</h4>
+        </div>  
+    </div></article>
+
+{% endblock %}

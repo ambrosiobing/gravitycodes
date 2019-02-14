@@ -1,0 +1,123 @@
+{% extends "gravcode/layout.html" %}
+
+{% block content %}
+
+<article class="container"> 
+    <div class="row" id="h1txtcolor">
+        <div class="col-xs-12">
+            <h1>Team</h1>
+        </div>
+    </div>
+</article>
+
+<article class="container flexcont"> 
+    <div class="team-cont" id="transprof">
+        <div class="team-item">
+            <a class="btn--primary js-tingle-modal-1a">
+                <div class="team-img">
+                    {% load staticfiles %}
+                    <img id="imgprof" src="{% static 'gravcode/images/team/profX.gif' %}">
+                </div>
+            </a>
+        </div>
+    </div>
+    <div class="team-cont" id="transmag">
+        <div class="team-item">
+            <a class="btn--primary js-tingle-modal-1b">
+                <div class="team-img">
+                    {% load staticfiles %}
+                    <img id="imgmagn" src="{% static 'gravcode/images/team/magento.gif' %}">
+                </div>
+            </a>
+        </div>
+    </div>
+    <div class="team-cont" id="transcyc">
+        <div class="team-item">
+            <a class="btn--primary js-tingle-modal-2a">
+                <div class="team-img">
+                    {% load staticfiles %}
+                    <img id="imgcycl" src="{% static 'gravcode/images/team/cyclops.gif' %}">
+                </div>
+            </a>
+        </div>
+    </div>
+    <div class="team-cont" id="transwol">
+        <div class="team-item">
+            <a class="btn--primary js-tingle-modal-2b">
+                <div class="team-img">
+                    {% load staticfiles %}
+                    <img id="imgwolv" src="{% static 'gravcode/images/team/wolverine.gif' %}">
+                </div>
+            </a>
+        </div>
+    </div>
+</article> 
+
+<!-- Tingle modals -->
+<!--Advisors -->
+<div class="tingle-no-display tingle-footer-button-close1a">
+    <div class="team-top">
+        <div class="team-top-text">
+            <div class="name">
+                <br/><br/>
+                <h3>Prof X</h3>								
+            </div>
+            <div class="team-status">Co-Founder &amp; CEO
+                <a href="https://www.linkedin.com/in/profx/" target="_blank">
+                    <img class="flag" src="{% static 'gravcode/images/icons/linkedin.png' %}" title="LinkedIn" />
+                </a>
+            </div>
+        </div>    
+        <p class="team-p" style="text-align:justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis massa ante, pellentesque in dapibus vitae, venenatis id justo. Ut ullamcorper mauris vitae posuere lacinia. Ut at dui sed elit hendrerit hendrerit. Curabitur feugiat elit fringilla, maximus lacus sit amet, facilisis nibh. Proin vitae maximus dui, non semper ligula. Phasellus dapibus bibendum risus. Nullam sodales volutpat semper.</p>
+    </div>    
+</div>
+<div class="tingle-no-display tingle-footer-button-close1b">
+    <div class="team-top">
+        <div class="team-top-text">
+            <div class="name">
+                <br/><br/>
+                <h3>Magneto</h3>									
+            </div>
+            <div class="team-status">Co-Founder &amp; CTO
+                <a href="https://www.linkedin.com/in/magne2/" target="_blank">
+                    <img class="flag" src="{% static 'gravcode/images/icons/linkedin.png' %}" title="LinkedIn" />
+                </a>            
+            </div>
+        </div>	
+    <p class="team-p" style="text-align:justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis massa ante, pellentesque in dapibus vitae, venenatis id justo. Ut ullamcorper mauris vitae posuere lacinia. Ut at dui sed elit hendrerit hendrerit. Curabitur feugiat elit fringilla, maximus lacus sit amet, facilisis nibh. Proin vitae maximus dui, non semper ligula. Phasellus dapibus bibendum risus. Nullam sodales volutpat semper.</p>
+</div>
+<!--Team -->
+<div class="tingle-no-display tingle-footer-button-close2a">
+    <div class="team-top">
+        <div class="team-top-text">
+            <div class="name">
+                <br/><br/>
+                <h3>Cyclops</h3>									
+            </div>
+            <div class="team-status">Co-Founder &amp; CMO
+                <a href="https://www.linkedin.com/in/cyclps/" target="_blank">
+                    <img class="flag" src="{% static 'gravcode/images/icons/linkedin.png' %}" title="LinkedIn" />
+                </a>    
+            </div>
+        </div>
+    </div>    
+    <p class="team-p" style="text-align:justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis massa ante, pellentesque in dapibus vitae, venenatis id justo. Ut ullamcorper mauris vitae posuere lacinia. Ut at dui sed elit hendrerit hendrerit. Curabitur feugiat elit fringilla, maximus lacus sit amet, facilisis nibh. Proin vitae maximus dui, non semper ligula. Phasellus dapibus bibendum risus. Nullam sodales volutpat semper.</p>
+</div>
+<div class="tingle-no-display tingle-footer-button-close2b">
+    <div class="team-top">
+        <div class="team-top-text">
+            <div class="name">
+                <br/><br/>
+                <h3>Wolverine</h3>									
+            </div>
+            <div class="team-status">Co-Founder &amp; CFO
+                <a href="https://www.linkedin.com/in/wolvi/" target="_blank">
+                    <img class="flag" src="{% static 'gravcode/images/icons/linkedin.png' %}" title="LinkedIn" />
+                </a>
+            </div>
+        </div>
+    </div>    
+    <p class="team-p" style="text-align:justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis massa ante, pellentesque in dapibus vitae, venenatis id justo. Ut ullamcorper mauris vitae posuere lacinia. Ut at dui sed elit hendrerit hendrerit. Curabitur feugiat elit fringilla, maximus lacus sit amet, facilisis nibh. Proin vitae maximus dui, non semper ligula. Phasellus dapibus bibendum risus. Nullam sodales volutpat semper.</p>
+</div>
+
+{% endblock %}
