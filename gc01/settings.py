@@ -31,6 +31,7 @@ ALLOWED_HOSTS = [ 'localhost', '127.0.0.1']
 ALLOWED_HOSTS += ['35.168.239.50','multilingdemo.us-east-1.elasticbeanstalk.com']
 ALLOWED_HOSTS += ['52.47.72.217','clearfactor-env-1.5z3icu7fxt.eu-west-3.elasticbeanstalk.com']
 ALLOWED_HOSTS += ['18.213.166.148','gravitycodes.us-east-1.elasticbeanstalk.com']
+ALLOWED_HOSTS += ['gravitycodes.herokuapp.com']
 
 # Application definition
 
